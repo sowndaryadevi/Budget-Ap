@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
+}
+.con{
+  max-width: 800px;
+}
+
+.container {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 0;
+  width: 90%;
+}
+
+.bud {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  background-color: rgba(224, 234, 234, 0.853);
+}
+.bud > button{
+  margin-left: 50px;
+  padding: 5px 15px;
+  background-color: rgb(30, 57, 161);
+  color: white;
+}
+
+.bud>input{
+  padding: 5px 10px;
+  border: 1px solid black;
+
+}
+
+.Remain {
+  padding: 15px 20px;
+  margin-right: 10px;
+  background-color: rgb(188, 255, 218);
+}
+
+.spend {
+  padding: 15px 20px;
+  margin-right: 10px;
+  background-color: rgba(97, 213, 255, 0.86);
+}
+.list{
+  margin-bottom: 5px;
+}
+.items{
+  width: 90%;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: center;
+  margin: 0;
+}
+.align{
+  display: flex;
+  margin: 0;
+}
+.input{
+  height: 30px;
+  width: 30%;
+  padding-left: 10px;
+  border: 1px solid black;
+  
+}
+.add-expense{
+  margin-top: 25px;
+  
+}
+.button-save{
+  background-color: rgb(30, 57, 161);
+  color: white;
+padding: 5px 10px;
+  margin-top: 15px;
+  font-size: medium;
+}
+.search-input{
+  padding: 10px 20px;
+  width: 87%;
+  margin-left: 10px;
+  border: 1px solid black;
+
+}
+form{
+  margin: 0;
+}
+@media only screen and (max-width:768px){
+  *{
+    margin-left: 5px;
+  }
+  .container{
+      display: block;
+      margin-bottom: 20px;
+  }
+  .bud > button{
+      padding: 5px 7px;
+      margin: 0;
+  }
+  .bud > input{
+   width: 70%;
+    padding-left: 0;
+    margin: 10px 0px;
+  }
+  .input{
+      display: block;
+      width: 90%;
+      border: 1px solid black;
+    
+  }
+  .search-input{
+ 
+      margin-left:10px;
+      margin-bottom: 0;
+      padding: 7px 20px;
+      border: 1px solid black;
+
+  }
+  .add-expense{
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+  .button-save{
+      margin-top: 0;
+  }
+ 
+}
